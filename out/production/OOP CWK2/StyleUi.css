@@ -1,0 +1,50 @@
+.root{
+    -fx-background-color: #1d1d1d;
+}
+
+.label{
+    -fx-pref-width: 800px;
+    -fx-pref-height: 150px;
+    -fx-label-padding: 5 20 5 20;
+    -fx-border-color: #e2e2e2;
+    -fx-font-size: 25px;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: red;
+    -fx-opacity: 0.6;
+    -fx-alignment: center;
+}
+
+.button {
+    -fx-max-width: 800px;
+    -fx-max-height: 300px;
+    -fx-pref-width: 80px;
+    -fx-pref-height: 60px;
+    -fx-border-color: #7ffc32;
+    -fx-border-width: 2;
+    -fx-background-color: #e1ffff;
+    -fx-alignment: center;
+    -fx-font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    -fx-font-size: 20px;
+    -fx-text-fill: #000000;
+}
+
+.button:hover {
+    -fx-background-color: #3a3a3a;
+}
+
+.vbox{
+    -fx-alignment: center;
+    -fx-pref-height: 900px;
+    -fx-pref-width: 800px;
+    -fx-spacing: 20;
+}
+
+.hbox{
+    -fx-alignment: center;
+    -fx-pref-width: 1000px;
+    -fx-pref-height: 300px;
+}
+.imageViews{
+    -fx-pref-width: 200px;
+    -fx-pref-height: 200px;
+}
